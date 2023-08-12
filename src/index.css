@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;line-height: 1.5;color:#9BD5FF;
+  overflow-x: hidden;
+}
+
+body{
+  scroll-behavior:smooth;
+}
+
+#bg{
+  background-image: url('/backgroundhome.png');background-position: center;background-size: cover;
+}
+
+#gradient{
+  background: rgb(29,4,44);
+  background: linear-gradient(180deg, rgba(29,4,44,0.54) 0%, rgba(29,4,44,0.7987570028011204) 93%, rgba(29,4,44,1) 100%);
+}
+
+#gradient2{
+  background: rgb(0,0,0);
+background: linear-gradient(103deg, rgba(0,0,0,0.54) 0%, rgba(0,0,0,0.5) 35%, rgba(255,12,0,0.16) 37%, rgba(0,0,0,0.5) 39%, rgba(0,0,0,0.5) 51%, rgba(0,107,186,0.16) 53%, rgba(1,0,2,0.5) 55%, rgba(1,0,1,0.5) 90%, rgba(29,4,44,0.2) 92%, rgba(1,0,1,0.5) 94%, rgba(0,0,0,0.54) 100%);
+}

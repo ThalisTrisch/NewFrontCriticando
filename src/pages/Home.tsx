@@ -57,9 +57,9 @@ const Home = () => {
             <div className="z-0 max-h-screen w-screen backdrop-blur-[2px]">
                 <div id="bg" className="w-screen h-screen">
                     <div id="gradient" className="w-screen h-screen bg-primary/50 backdrop-blur-sm flex items-center justify-center">
-                        <div className="flex items-center gap-20 flex-wrap justify-center px-10">
-                            <div className='flex flex-col h-[230px] justify-between'>
-                                <h1 className='text-8xl font-medium'>Bem vindo ao <br></br>Criticando!</h1>
+                        <div className="flex items-center gap-20 flex-wrap justify-center px-10 mt-24 max-md:gap-10">
+                            <div className='flex flex-col h-[230px] justify-between items-center'>
+                                <h1 className='text-8xl font-medium max-md:text-6xl max-sm:text-5xl'>Bem vindo ao <br></br>Criticando!</h1>
                                 <p className='font-normal'>A maior plataforma de críticas a obras cinematográficas do Brasil!</p>
                             </div>
                             <div className='h-[230px] w-80 bg-black/50 py-4 flex flex-col items-center justify-evenly border-black/40 border-[1px] rounded-3xl backdrop-blur-md'>
@@ -78,16 +78,16 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-20'>
-                <p className='w-screen text-2xl px-12 text-center'>
+                <p className='w-screen text-2xl px-12 text-center max-md:text-[18px]'>
                     Você já se encontrou na situação de não coseguir escolher filmes ou <br></br>séries diante de diversas opções que há em plataformas de streaming?
                 </p>
-                <div id="gradient2" className='flex rounded-3xl border-black/50 border-[1px] m-20 justify-center'>
-                    <div className='m-4 flex flex-col justify-center gap-4 max-w-[800px]'>
-                        <p className='text-2xl text-center'>Se a resposta for sim, o Criticando foi feito para você!</p>
-                        <p>Veja quais são as obras mais aclamadas em nossa plataforma, assim ficará muito mais fácil fazer sua escolha! Há ainda administradores responsáveis por manter um ambiente sem spoilers ou desrespeito por parte de outros usuários, tornando nossa comunidade um ambiente saudável e seguro para expor sua respeitosa opinião.</p>
+                <div id="gradient2" className='flex rounded-3xl border-black/50 border-[1px] m-20 p-2 justify-center max-md:mx-8 max-sm:mx-0 max-sm:rounded-none'>
+                    <div className='m-4 flex flex-col justify-center gap-4 w-3/4 max-w-[800px] '>
+                        <p className='text-2xl text-center max-md:text-xl max-sm:text-base'>Se a resposta for sim, o Criticando foi feito para você!</p>
+                        <p  className='max-md:text-[10px]'>Veja quais são as obras mais aclamadas em nossa plataforma, assim ficará muito mais fácil fazer sua escolha! Há ainda administradores responsáveis por manter um ambiente sem spoilers ou desrespeito por parte de outros usuários, tornando nossa comunidade um ambiente saudável e seguro para expor sua respeitosa opinião.</p>
                     </div>
-                    <div>
-                        <img src={pipoca} alt="" className='max-w-[200px] m-4'/>
+                    <div className='w-1/4 flex items-center justify-center'>
+                        <img src={pipoca} alt="" className='w-[180px]'/>
                     </div>
                 </div>
             </div>

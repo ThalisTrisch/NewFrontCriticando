@@ -9,7 +9,7 @@ export default {
       'primary':"#1D042C",
       'lightprimary':'#4b0c70',
       'secondary':'#',
-      'font':"#9BD5FF",
+      'font':'#9BD5FF',
       'transparent':'transparent',
       'black':'#000000',
       'hardblack':'#0B0B0B',
@@ -25,7 +25,9 @@ export default {
       'star':'#d4de1b',
       'bronze':'#cd7f32',
       'silver':'#aaa9ad',
-      'gold':'#ffd700'
+      'gold':'#ffd700',
+      'red':"#ff0000",
+      'green':"#008000"
     },
     extend: {},
   },

@@ -3,10 +3,10 @@ import {AiFillStar,AiOutlineStar} from "react-icons/ai"
 function Card({title,about,src,stars,user}:any) {
   return (
     <>
-      <div className="flex flex-col items-center justify-center w-80 h-80 bg-hardblack rounded-xl 
-      pb-2 opacity-70  shadow-2xl shadow-black/80 hover:opacity-90 hover:shadow-black transition-all">
+      {/* <div className="flex flex-col items-center justify-center w-80 h-80 bg-hardblack rounded-xl 
+      pb-2  shadow-2xl shadow-black/80 hover:shadow-black transition-all">
         <div className=" w-80 h-80 absolute flex justify-center items-center pt-1">
-          <div className="w-60 h-12 bg-font flex items-center justify-center rounded-full">
+          <div className="w-60 h-12 bg-font/90 flex items-center justify-center rounded-full">
             <p className="text-base font-semibold p-1 text-center text-black">{title}</p>
           </div>
         </div>
@@ -14,7 +14,7 @@ function Card({title,about,src,stars,user}:any) {
           <div className="absolute mt-[90px] bg-hardblack min-w-fit max-w-[120px] rounded-r-full">
             <p className="px-4 overflow-hidden whitespace-nowrap max-w-[140px]">{about}</p>
           </div>
-          <img src={src} alt="" className="p-2 pb-0 w-full rounded-tl-2xl rounded-tr-2xl"/>
+          <img src={src} alt="" className="p-2 pb-0 w-full rounded-t-2xl"/>
         </div>
         <div className="bg-hardblack w-[304px] h-40 rounded-bl-2xl rounded-br-2xl flex">
           <div className="w-1/2 h-full bg-font/0 flex flex-col justify-center items-center">
@@ -32,6 +32,9 @@ function Card({title,about,src,stars,user}:any) {
             <p></p>
           </div>
         </div>
+      </div> */}
+      <div>
+        
       </div>
     </>
   )

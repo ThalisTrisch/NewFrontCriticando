@@ -1,10 +1,10 @@
 var pipoca = '/popcorn.gif'
 var googleLogo = '/googlelogo.png'
-import Card from '../components/Card';
-import BestUser from '../components/BestUser'
+import CardXl from '../../components/CardXl';
+import BestUser from '../../components/BestUser'
 import { useEffect } from 'react';
 import {useNavigate} from 'react-router-dom'
-import './Home.css'
+import '../css/Home.css'
 
 const Home = () => {
     const data = [
@@ -101,18 +101,18 @@ const Home = () => {
             <div className='flex flex-wrap justify-center gap-10 mt-16'>
                 {data.map((each)=>{
                     return(
-                        <Card
+                        <CardXl
                             key={each.title}
                             title={each.title}
                             about={each.about}
                             src={each.src}
                             user={each.user}
                             stars={each.stars}
-                        ></Card>
+                        ></CardXl>
                     )
                 })}
             </div>
-            <p className='text-2xl text-center mb-10 mt-24'>Usuários mais conhecidos</p>
+            <p className='text-2xl text-center mb-10 mt-24'>Usuários Populares</p>
             <div className='m-16 flex justify-center gap-4 flex-col'>
                 {bestUsers &&
                     bestUsers.map((user)=>{
